@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scytedtv:gold_horse_armor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"pattern": [
+			"G G",
+			"GGG",
+			"G G"
+		],
+		"result": {
+			"item": "minecraft:golden_horse_armor",
+			"count": 1
+		}
+	}
+}

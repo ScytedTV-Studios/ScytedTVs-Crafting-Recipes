@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ScytedTV Studios"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.40"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "ScytedTV's Custom Crafting",
+		"description": "ScytedTV Studios' custom crafting recipe behavior pack.",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "848e959d-4c48-4a74-aa44-c57fc7aacae3",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "51eb65ec-506b-429a-9d23-acfe610b8b25",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0431bc4c-1e0d-4c6d-a37e-503f21b9036e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scytedtv:xp_bottle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"L": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"B": {
+				"item": "minecraft:glass_bottle"
+			}
+		},
+		"pattern": [
+			"LLL",
+			"LBL",
+			"LLL"
+		],
+		"result": {
+			"item": "minecraft:experience_bottle",
+			"count": 4
+		}
+	}
+}

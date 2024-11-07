@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "scytedtv:saddle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"L": {
+				"item": "minecraft:leather"
+			},
+			"T": {
+				"item": "minecraft:tripwire_hook"
+			}
+		},
+		"pattern": [
+			"LLL",
+			"LTL"
+		],
+		"result": {
+			"item": "minecraft:saddle",
+			"count": 1
+		}
+	}
+}

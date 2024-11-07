@@ -1,0 +1,43 @@
+{
+	"type": "minecraftBedrock",
+	"name": "ScytedTV's Custom Crafting v1",
+	"namespace": "scytedtv",
+	"authors": [
+		"ScytedTV Studios"
+	],
+	"targetVersion": "1.21.40",
+	"description": "ScytedTV Studios' custom crafting recipe behavior pack.",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"educationEdition": false
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "ScytedTV's Custom Crafting"
+				}
+			]
+		]
+	}
+}
